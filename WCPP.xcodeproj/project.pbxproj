@@ -51,6 +51,10 @@
 		01CA710C192D2228002B9545 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CA710B192D2228002B9545 /* MBProgressHUD.m */; };
 		01CA710F192D2F04002B9545 /* ingredientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CA710E192D2F04002B9545 /* ingredientView.m */; };
 		01CA7112192D37B7002B9545 /* BadStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CA7111192D37B7002B9545 /* BadStuffViewController.m */; };
+		01D43299197CBB2300EE1715 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D43294197CBB2300EE1715 /* TFHpple.m */; };
+		01D4329A197CBB2300EE1715 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D43296197CBB2300EE1715 /* TFHppleElement.m */; };
+		01D4329B197CBB2300EE1715 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D43298197CBB2300EE1715 /* XPathQuery.m */; };
+		01D4329D197CBDE100EE1715 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4329C197CBDE100EE1715 /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +144,13 @@
 		01CA710E192D2F04002B9545 /* ingredientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ingredientView.m; sourceTree = "<group>"; };
 		01CA7110192D37B7002B9545 /* BadStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadStuffViewController.h; sourceTree = "<group>"; };
 		01CA7111192D37B7002B9545 /* BadStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadStuffViewController.m; sourceTree = "<group>"; };
+		01D43293197CBB2300EE1715 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		01D43294197CBB2300EE1715 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		01D43295197CBB2300EE1715 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		01D43296197CBB2300EE1715 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		01D43297197CBB2300EE1715 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		01D43298197CBB2300EE1715 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		01D4329C197CBDE100EE1715 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D4329D197CBDE100EE1715 /* libxml2.2.dylib in Frameworks */,
 				01CA7107192BA2C8002B9545 /* CoreText.framework in Frameworks */,
 				01C8432D191950210012F90F /* FactualSDK.framework in Frameworks */,
 				014AE74F18F59B970017854F /* AVFoundation.framework in Frameworks */,
@@ -192,6 +204,7 @@
 		014AE71218F4635E0017854F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01D4329C197CBDE100EE1715 /* libxml2.2.dylib */,
 				01CA7106192BA2C8002B9545 /* CoreText.framework */,
 				01C8432C191950210012F90F /* FactualSDK.framework */,
 				01C97F25190EB63500BC6063 /* ImageIO.framework */,
@@ -225,6 +238,12 @@
 				014AE75118F59F730017854F /* Barcode.m */,
 				01CA710A192D2228002B9545 /* MBProgressHUD.h */,
 				01CA710B192D2228002B9545 /* MBProgressHUD.m */,
+				01D43293197CBB2300EE1715 /* TFHpple.h */,
+				01D43294197CBB2300EE1715 /* TFHpple.m */,
+				01D43295197CBB2300EE1715 /* TFHppleElement.h */,
+				01D43296197CBB2300EE1715 /* TFHppleElement.m */,
+				01D43297197CBB2300EE1715 /* XPathQuery.h */,
+				01D43298197CBB2300EE1715 /* XPathQuery.m */,
 				014AE72E18F4635E0017854F /* Images.xcassets */,
 				014AE71A18F4635E0017854F /* Supporting Files */,
 			);
@@ -410,8 +429,10 @@
 				01CA70FE192BA267002B9545 /* UINavigationBar+FlatUI.m in Sources */,
 				01CA70F4192BA267002B9545 /* FUIButton.m in Sources */,
 				01CA70F5192BA267002B9545 /* FUICellBackgroundView.m in Sources */,
+				01D43299197CBB2300EE1715 /* TFHpple.m in Sources */,
 				014AE75218F59F730017854F /* Barcode.m in Sources */,
 				01CA70FF192BA267002B9545 /* UIPopoverController+FlatUI.m in Sources */,
+				01D4329A197CBB2300EE1715 /* TFHppleElement.m in Sources */,
 				01CA70F6192BA267002B9545 /* FUIPopoverBackgroundView.m in Sources */,
 				01CA7104192BA267002B9545 /* UITableViewCell+FlatUI.m in Sources */,
 				01CA70F8192BA267002B9545 /* FUISwitch.m in Sources */,
@@ -427,6 +448,7 @@
 				01CA70FB192BA267002B9545 /* UIColor+FlatUI.m in Sources */,
 				01CA710C192D2228002B9545 /* MBProgressHUD.m in Sources */,
 				014AE72418F4635E0017854F /* AppDelegate.m in Sources */,
+				01D4329B197CBB2300EE1715 /* XPathQuery.m in Sources */,
 				01CA7112192D37B7002B9545 /* BadStuffViewController.m in Sources */,
 				01CA70FD192BA267002B9545 /* UIImage+FlatUI.m in Sources */,
 				01CA7102192BA267002B9545 /* UIStepper+FlatUI.m in Sources */,
@@ -523,6 +545,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lstdc++";
@@ -557,6 +584,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-lstdc++";
 				SDKROOT = iphoneos;
@@ -574,6 +606,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/include/libxml2",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WCPP/WCPP-Prefix.pch";
@@ -597,6 +630,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(SDKROOT)/usr/include/libxml2",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WCPP/WCPP-Prefix.pch";

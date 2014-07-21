@@ -10,14 +10,12 @@
 
 @interface Barcode() 
 
-@property (nonatomic, strong) AVMetadataMachineReadableCodeObject *metadataObject;
-@property (nonatomic, strong) NSString * barcodeType;
-@property (nonatomic, strong) NSString * barcodeData;
-@property (nonatomic, strong) UIBezierPath *cornersPath;
-@property (nonatomic, strong) UIBezierPath *boundingBoxPath;
+
 
 @end
 @implementation Barcode
+
+@synthesize box;
 
 + (Barcode * )processMetadataObject: (AVMetadataMachineReadableCodeObject*)code
 {
@@ -31,14 +29,39 @@
     CGMutablePathRef cornersPath = CGPathCreateMutable();
     // 5 Make point
     CGPoint point;
+    CGPoint p1;
+    CGPoint p2;
+    CGPoint p3;
+    
+    for (int i =0; i<4; i++) {
+        CGPointMakeWithDictionaryRepresentation(
+                                                (CFDictionaryRef)code.corners[i], &point);
+        NSLog(@"%@",NSStringFromCGPoint(point));
+        if (i==0) {
+            p1 = point;
+        }
+        if (i==1) {
+            p2 = point;
+        }
+        if (i==2) {
+            p3 = point;
+        }
+    }
+    barcode.box = CGRectMake(p3.x, p3.y, p1.x-p3.x, p2.y-p1.y);
+    
     CGPointMakeWithDictionaryRepresentation(
                                             (CFDictionaryRef)code.corners[0], &point);
     // 6 Make path
     CGPathMoveToPoint(cornersPath, nil, point.x, point.y);
+    
+    
+    
     // 7
     for (int i = 1; i < code.corners.count; i++) {
         CGPointMakeWithDictionaryRepresentation(
                                                 (CFDictionaryRef)code.corners[i], &point);
+        
+        
         CGPathAddLineToPoint(cornersPath, nil,
                              point.x, point.y);
     }

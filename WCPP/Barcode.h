@@ -11,6 +11,13 @@
 
 @interface Barcode : NSObject
 
+@property (nonatomic, strong) AVMetadataMachineReadableCodeObject *metadataObject;
+@property (nonatomic, strong) NSString * barcodeType;
+@property (nonatomic, strong) NSString * barcodeData;
+@property (nonatomic, strong) UIBezierPath *cornersPath;
+@property (nonatomic, strong) UIBezierPath *boundingBoxPath;
+@property (nonatomic) CGRect box;
+
 + (Barcode * )processMetadataObject:(AVMetadataMachineReadableCodeObject*) code;
 - (NSString *) getBarcodeType;
 - (NSString *) getBarcodeData;

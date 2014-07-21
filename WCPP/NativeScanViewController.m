@@ -28,6 +28,7 @@
 
     BOOL scanning;
     BadStuffViewController *time;
+    CGRect originalFrame;
 }
 
 
@@ -98,6 +99,13 @@
     _device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
     NSError *error = nil;
     
+    if ([_device respondsToSelector:@selector(isAutoFocusRangeRestrictionSupported)] && _device.autoFocusRangeRestrictionSupported) {
+        if ([_device lockForConfiguration:nil]) {
+            _device.autoFocusRangeRestriction = AVCaptureAutoFocusRangeRestrictionNear;
+            [_device unlockForConfiguration];
+        }
+    }
+    
     _input = [AVCaptureDeviceInput deviceInputWithDevice:_device error:&error];
     if (_input) {
         [_session addInput:_input];
@@ -126,6 +134,7 @@
     barcodeTemplate = imageView;
     
     mbProgress = [[MBProgressHUD alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2.0-16, self.view.frame.size.height/2.0-16, 38, 38)];
+    originalFrame = barcodeTemplate.frame;
     
 }
 
@@ -144,7 +153,10 @@
             if ([metadata.type isEqualToString:type])
             {
                 barCodeObject = (AVMetadataMachineReadableCodeObject *)[_prevLayer transformedMetadataObjectForMetadataObject:(AVMetadataMachineReadableCodeObject *)metadata];
-                
+                Barcode *b = [Barcode processMetadataObject:barCodeObject];
+                [UIView animateWithDuration:0.2 animations:^{
+                    barcodeTemplate.frame = CGRectMake((barcodeTemplate.frame.origin.x+b.box.origin.x)/2.0, (barcodeTemplate.frame.origin.y+b.box.origin.y)/2.0, (barcodeTemplate.frame.size.width+b.box.size.width)/2.0, (barcodeTemplate.frame.size.height+b.box.size.height)/2.0);
+                }];
                 detectionString = [(AVMetadataMachineReadableCodeObject *)metadata stringValue];
                 break;
             }
@@ -197,6 +209,9 @@
         alert.defaultButtonTitleColor = [UIColor whiteColor];
         alert.defaultButtonCornerRadius = 14.0;
         [alert setOnDismissAction:^{
+            [UIView animateWithDuration:0.2 animations:^{
+                barcodeTemplate.frame = originalFrame;
+            }];
             currentBarcode = @"0";
             scanning = YES;
         }];
@@ -231,6 +246,9 @@
         alert.defaultButtonTitleColor = [UIColor whiteColor];
         alert.defaultButtonCornerRadius = 14.0;
         [alert setOnDismissAction:^{
+            [UIView animateWithDuration:0.2 animations:^{
+                barcodeTemplate.frame = originalFrame;
+            }];
             currentBarcode = @"0";
             scanning = YES;
         }];
@@ -279,6 +297,9 @@
         alert.defaultButtonTitleColor = [UIColor whiteColor];
         alert.defaultButtonCornerRadius = 14.0;
         [alert setOnDismissAction:^{
+            [UIView animateWithDuration:0.2 animations:^{
+                barcodeTemplate.frame = originalFrame;
+            }];
             currentBarcode = @"0";
             scanning = YES;
         }];
@@ -302,6 +323,9 @@
 -(void)doneWithChemicals{
     [time dismissViewControllerAnimated:YES
                             completion:^{
+                                [UIView animateWithDuration:0.2 animations:^{
+                                    barcodeTemplate.frame = originalFrame;
+                                }];
                                 scanning = YES;
                             }];
 }
