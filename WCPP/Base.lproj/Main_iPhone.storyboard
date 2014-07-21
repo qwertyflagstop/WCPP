@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="yyV-wP-OOw">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Native Scan View Controller - Scan Barcodes-->
+        <scene sceneID="I5j-AK-uMj">
+            <objects>
+                <viewController id="0Ic-Tc-9aD" customClass="NativeScanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3E2-hh-f3M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scan Barcodes" id="05v-xw-uNe">
+                        <barButtonItem key="leftBarButtonItem" title="Help" id="nSW-wu-dHi">
+                            <connections>
+                                <segue destination="BlR-Dz-gIs" kind="push" id="s6n-CE-liV"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="About" id="Nw3-fC-P2E">
+                            <connections>
+                                <segue destination="nJ6-Nm-nzi" kind="push" id="DI1-gR-2Sd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QxB-2J-1Nc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="-233"/>
+        </scene>
+        <!--Bad Stuff View Controller-->
+        <scene sceneID="5cg-Oa-Qya">
+            <objects>
+                <viewController storyboardIdentifier="gg" id="DK9-2t-KYy" customClass="BadStuffViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z2e-rG-694">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harmful Ingredients" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lHI-74-aRV">
+                                <rect key="frame" x="0.0" y="20" width="320" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f6E-C1-occ">
+                                <rect key="frame" x="0.0" y="508" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.89803928136825562" green="0.39607846736907959" blue="0.20392158627510071" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissThisView:" destination="DK9-2t-KYy" eventType="touchUpInside" id="64W-Wl-JW3"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="VoS-Z4-nB1">
+                                <rect key="frame" x="0.0" y="68" width="320" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.7555322017766497" green="0.26761353128444604" blue="0.13205190307087378" alpha="0.95999999999999996" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196084976196289" green="0.4901961088180542" blue="0.21960785984992981" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="ingredientsScroll" destination="VoS-Z4-nB1" id="8Dg-9d-llJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qup-sx-R0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1331" y="-233"/>
+        </scene>
+        <!--View Controller - Help-->
+        <scene sceneID="Pe4-LH-taA">
+            <objects>
+                <viewController id="BlR-Dz-gIs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cbw-Az-k8S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="v1G-1e-5JP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">To use the app, simply point the rear camera at a product barcode and wait for software to detect it. For optimal scanning, hold the barcode steadily in a well illuminated location and adjust the phone to get a clear image on screen.  
+
+If the database has the product listed, a warning will appear if any potentially harmful chemicals were detected.  Results may vary.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Help" id="4da-EL-hh8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ktt-1t-JCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="-951"/>
+        </scene>
+        <!--View Controller - About-->
+        <scene sceneID="q9a-Ko-SJ4">
+            <objects>
+                <viewController id="nJ6-Nm-nzi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UwZ-qh-qpb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" id="K6W-xC-glX">
+                                <rect key="frame" x="0.0" y="-6" width="320" height="607"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The Wellesley Cancer Prevention Project is a non-profit organization that advocates for public and private policies to reduce cancer risk.  The WCPP Scan app is intended to broaden consumer awareness of potentially dangerous ingredients in their food, household products and cosmetics.  
+
+Results are not guaranteed to be complete or correct.  The WCPP accepts no liability for any issues resulting from incorrect or outdated information.  The WCCP is not responsible for the consumers use of the presented information.  
+
+Donate Bitcoin:  14X3SUDBXtFE3hz5TDeADozXRHDKkJLQit 
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="ZE7-ef-LfR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Edh-HI-Bpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="-951"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="tgF-cH-ReN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yyV-wP-OOw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bN9-5Q-HlL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Ic-Tc-9aD" kind="relationship" relationship="rootViewController" id="fvs-T2-I2Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WzC-dC-dF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="-233"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

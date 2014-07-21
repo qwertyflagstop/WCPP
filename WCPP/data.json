@@ -1,0 +1,1186 @@
+ [
+  {
+  "Ingredient Name":"Digoxin",
+  "Alt Name 1":"foxglove",
+  "Alt Name 2":"lanoxin",
+  "Alt Name 3":"digacin",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Digoxin"
+  },
+  {
+  "Ingredient Name":"Hydrogen Peroxide",
+  "Alt Name 1":"dihydrogen dioxide",
+  "Alt Name 2":"dioxidance",
+  "Alt Name 3":"oxidanyl",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Hydrogen_peroxide"
+  },
+  {
+  "Ingredient Name":"Ethylene Glycol",
+  "Alt Name 1":"Ethane-1,2",
+  "Alt Name 2":"Ethylene Alcohol",
+  "Alt Name 3":"Hypodicarbounous acid",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Ethylene_glycol"
+  },
+  {
+  "Ingredient Name":"Nicotine",
+  "Alt Name 1":"nicotrol",
+  "Alt Name 2":"solanaceae",
+  "Alt Name 3":"tobacco",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Nicotine"
+  },
+  {
+  "Ingredient Name":"Strychnine",
+  "Alt Name 1":"Strychnos",
+  "Alt Name 2":"Strychnidin",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Strychnine"
+  },
+  {
+  "Ingredient Name":"Brucine",
+  "Alt Name 1":"Strychnos",
+  "Alt Name 2":"Dimethoxystrychnine",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Brucine"
+  },
+  {
+  "Ingredient Name":"Tabun",
+  "Alt Name 1":"Dimethylphosphoramidocyanidate",
+  "Alt Name 2":"dimethylphosphoramidocyanidate",
+  "Alt Name 3":"Cyanodimethylaminoethoxyphosphine oxide",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Tabun_(nerve_agent)"
+  },
+  {
+  "Ingredient Name":"Sarin",
+  "Alt Name 1":"methylphosphonofluoridate",
+  "Alt Name 2":"Phosphonofluoridic acid",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Sarin"
+  },
+  {
+  "Ingredient Name":"Tetrachlorodibenzodioxin",
+  "Alt Name 1":"dioxin",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/2,3,7,8-Tetrachlorodibenzodioxin"
+  },
+  {
+  "Ingredient Name":"VX",
+  "Alt Name 1":"methylphosphonothioate",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/VX_(nerve_agent)"
+  },
+  {
+  "Ingredient Name":"Batrachotoxin",
+  "Alt Name 1":"BTX",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Batrachotoxin"
+  },
+  {
+  "Ingredient Name":"Tetrodotoxin",
+  "Alt Name 1":"TTX",
+  "Alt Name 2":"anhydrotetrodotoxin",
+  "Alt Name 3":"tetrodonic acid",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Tetrodotoxin"
+  },
+  {
+  "Ingredient Name":"Acetone cyanohydrin",
+  "Alt Name 1":"ACH",
+  "Alt Name 2":"2-Hydroxy-2-methylpropanenitrile",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Acetone_cyanohydrin"
+  },
+  {
+  "Ingredient Name":"Acetone thiosemicarbazide",
+  "Alt Name 1":"Thiosemicarbazone",
+  "Alt Name 2":"Dimethyl ketone thiosemicarbazone",
+  "Alt Name 3":"hydrazinecarbothioamide",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Acetone_thiosemicarbazide"
+  },
+  {
+  "Ingredient Name":"Acrolein",
+  "Alt Name 1":"Acraldehyde",
+  "Alt Name 2":"Acrylic Aldehyde",
+  "Alt Name 3":"Allyl Aldehyde",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Acrolein"
+  },
+  {
+  "Ingredient Name":"Aldicarb",
+  "Alt Name 1":"temik",
+  "Alt Name 2":"2-Methyl-2-(methylthio)propanal O-(N-methylcarbamoyl)oxime",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Aldicarb"
+  },
+  {
+  "Ingredient Name":"Aldrin",
+  "Alt Name 1":"isodrin",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Aldrin"
+  },
+  {
+  "Ingredient Name":"Aluminum phosphide",
+  "Alt Name 1":"Aluminium monophosphide",
+  "Alt Name 2":"Phostoxin",
+  "Alt Name 3":"Fumitoxin",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Aluminum_phosphide"
+  },
+  {
+  "Ingredient Name":"Aminopterin",
+  "Alt Name 1":"4-Aminofolic acid",
+  "Alt Name 2":"Aminopterin sodium",
+  "Alt Name 3":"Aminopteroylglutamic acid",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Aminopterin"
+  },
+  {
+  "Ingredient Name":"Amiton",
+  "Alt Name 1":"VG",
+  "Alt Name 2":"tetram",
+  "Alt Name 3":"O,O-Diethyl S-[2-(diethylamino)ethyl] phosphorothioate",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Amiton"
+  },
+  {
+  "Ingredient Name":"Arsine",
+  "Alt Name 1":"Arsenic trihydride",
+  "Alt Name 2":"Arsane",
+  "Alt Name 3":"hydrogen arsenide",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Arsine"
+  },
+  {
+  "Ingredient Name":"Benzotrichloride",
+  "Alt Name 1":"Trichloromethyl benzene",
+  "Alt Name 2":"Toluene trichloride",
+  "Alt Name 3":"Phenyl chloroform",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Benzotrichloride"
+  },
+  {
+  "Ingredient Name":"Cadmium Sterate",
+  "Alt Name 1":"Cadmium dioctadecanoate",
+  "Alt Name 2":"Cadmium distearate",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Cadmium_stearate"
+  },
+  {
+  "Ingredient Name":"Cantharidin",
+  "Alt Name 1":"2,6-Dimethyl-4,10-dioxatricyclo-",
+  "Alt Name 2":"Lytta vesicatoria",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Cantharidin"
+  },
+  {
+  "Ingredient Name":"Chloroxuron",
+  "Alt Name 1":"3-[4-(4-chlorophenoxy)phenyl]-1,1-dimethyl-urea",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Chloroxuron"
+  },
+  {
+  "Ingredient Name":"Colchicine",
+  "Alt Name 1":"autumn crocus",
+  "Alt Name 2":"Colcrys",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Colchicine"
+  },
+  {
+  "Ingredient Name":"Crimidine",
+  "Alt Name 1":"",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Crimidine"
+  },
+  {
+  "Ingredient Name":"Dichlorvos",
+  "Alt Name 1":"2,2-dichlorovinyl dimethyl phosphate",
+  "Alt Name 2":"DDVP",
+  "Alt Name 3":"Vapona",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Dichlorvos"
+  },
+  {
+  "Ingredient Name":"Diepoxybutane",
+  "Alt Name 1":"butane diepoxide",
+  "Alt Name 2":"butadiene diepoxide",
+  "Alt Name 3":"Bioxirane",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Diepoxybutane"
+  },
+  {
+  "Ingredient Name":"Dimefox",
+  "Alt Name 1":"N-[dimethylamino(fluoro)phosphoryl]-N-methylmethanamine",
+  "Alt Name 2":"tetramethylphosphorodiamidic fluoride",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Dimefox"
+  },
+  {
+  "Ingredient Name":"Flourine",
+  "Alt Name 1":"",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Fluorine#Toxicity"
+  },
+  {
+  "Ingredient Name":"Formaldehyde",
+  "Alt Name 1":"Methanal",
+  "Alt Name 2":"Methyl aldehyde",
+  "Alt Name 3":"Formol",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Formaldehyde"
+  },
+  {
+  "Ingredient Name":"Furan",
+  "Alt Name 1":"Oxole",
+  "Alt Name 2":"Furfuran",
+  "Alt Name 3":"Divinylene oxide",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Furan"
+  },
+  {
+  "Ingredient Name":"Hydrazine",
+  "Alt Name 1":"Diamine",
+  "Alt Name 2":"Diazane",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Hydrazine"
+  },
+  {
+  "Ingredient Name":"Hydrogen Cyanide",
+  "Alt Name 1":"Hydrocyanic acid",
+  "Alt Name 2":"formic anammonide",
+  "Alt Name 3":"formonitrile",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Hydrogen_cyanide"
+  },
+  {
+  "Ingredient Name":"Leptophos",
+  "Alt Name 1":"O-(4-Bromo-2,5-dichlorophenyl) O-methyl phenylphosphonothioate",
+  "Alt Name 2":"Phosvel",
+  "Alt Name 3":"Abar",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Leptophos#Toxicodynamics"
+  },
+  {
+  "Ingredient Name":"Muscimol",
+  "Alt Name 1":"5-(Aminomethyl)-isoxazol-3-ol",
+  "Alt Name 2":"agarin",
+  "Alt Name 3":"pantherine",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Muscimol"
+  },
+  {
+  "Ingredient Name":"Ouabain",
+  "Alt Name 1":"waabaayo",
+  "Alt Name 2":"Strodival",
+  "Alt Name 3":"g-strophanthin",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Ouabain"
+  },
+  {
+  "Ingredient Name":"Paraquat",
+  "Alt Name 1":"1,1'-Dimethyl-4,4'-bipyridinium dichloride",
+  "Alt Name 2":"Pillarxone",
+  "Alt Name 3":"Gramixel",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Paraquat"
+  },
+  {
+  "Ingredient Name":"Pictrotoxin",
+  "Alt Name 1":"cocculin",
+  "Alt Name 2":"Cocculus indicus",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Picrotoxin"
+  },
+  {
+  "Ingredient Name":"Ricin",
+  "Alt Name 1":"",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Ricin"
+  },
+  {
+  "Ingredient Name":"Thallium(I) carbonate",
+  "Alt Name 1":"thallium monocarbonate",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Thallous_carbonate"
+  },
+  {
+  "Ingredient Name":"Gyromitrin",
+  "Alt Name 1":"N′-Ethylidene-N-methylformohydrazide",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Gyromitrin"
+  },
+  {
+  "Ingredient Name":"Glycidol",
+  "Alt Name 1":"Oxiranylmethanol",
+  "Alt Name 2":"2,3-Epoxy-1-propanol",
+  "Alt Name 3":"3-Hydroxypropylene oxide",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Glycidol"
+  },
+  {
+  "Ingredient Name":"Lead",
+  "Alt Name 1":"Pb",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Lead"
+  },
+  {
+  "Ingredient Name":"Cocaine",
+  "Alt Name 1":"benzoylmethylecgonine",
+  "Alt Name 2":"Cocaine Hydrochloride",
+  "Alt Name 3":"methyl (1R,2R,3S,5S)-3- (benzoyloxy)-8-methyl-8-azabicyclo[3.2.1] octane-2-carboxylate",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Cocaine"
+  },
+  {
+  "Ingredient Name":"Alkylphenol resin",
+  "Alt Name 1":"Bleached Paper",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Alkylphenol"
+  },
+  {
+  "Ingredient Name":"Hexachlorobenzene ",
+  "Alt Name 1":"Perchlorobenzene",
+  "Alt Name 2":"Benzene Hexachloride",
+  "Alt Name 3":"HCB",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Hexachlorobenzene"
+  },
+  {
+  "Ingredient Name":"Hydrazine",
+  "Alt Name 1":"Diamine ",
+  "Alt Name 2":"Diazane",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Hydrazine"
+  },
+  {
+  "Ingredient Name":"Acephate",
+  "Alt Name 1":"N-(Methoxy-methylsulfanylphosphoryl)acetamide",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://www.toxipedia.org/display/toxipedia/Organophosphates"
+  },
+  {
+  "Ingredient Name":"Anthrax",
+  "Alt Name 1":"Bacillus anthracis",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Bacillus_anthracis"
+  },
+  {
+  "Ingredient Name":"Mercury",
+  "Alt Name 1":"Hg",
+  "Alt Name 2":"Quicksilver",
+  "Alt Name 3":"murcuric chloride",
+  "Weight":4,
+  "Source":"http://en.wikipedia.org/wiki/Mercury_(element)"
+  },
+  {
+  "Ingredient Name":"Linamarin",
+  "Alt Name 1":"casssava root",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Linamarin"
+  },
+  {
+  "Ingredient Name":"Acrylamide",
+  "Alt Name 1":"prop-2-enamide",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Acrylamide"
+  },
+  {
+  "Ingredient Name":"Adiponitrile",
+  "Alt Name 1":"Adipic acid dinitrile",
+  "Alt Name 2":"Adipyldinitrile",
+  "Alt Name 3":"Hexanedinitrile",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Adiponitrile"
+  },
+  {
+  "Ingredient Name":"Allyl Alcohol",
+  "Alt Name 1":"2-propenol",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Allyl_alcohol"
+  },
+  {
+  "Ingredient Name":"Ammonia",
+  "Alt Name 1":"Azane",
+  "Alt Name 2":"Hydrogen nitride",
+  "Alt Name 3":"Trihydrogen nitride",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Ammonia"
+  },
+  {
+  "Ingredient Name":"Amphetamine",
+  "Alt Name 1":"1-phenylpropan-2-amine",
+  "Alt Name 2":"Levoamphetamine",
+  "Alt Name 3":"Dextroamphetamine",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Amphetamine"
+  },
+  {
+  "Ingredient Name":"Aniline",
+  "Alt Name 1":"Phenylamine",
+  "Alt Name 2":"Aminobenzene",
+  "Alt Name 3":"Benzenamine",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Aniline"
+  },
+  {
+  "Ingredient Name":"Benzyl Chloride",
+  "Alt Name 1":"chlorophenylmethane",
+  "Alt Name 2":"α-Chlorotoluene",
+  "Alt Name 3":"BnCl",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Benzyl_chloride"
+  },
+  {
+  "Ingredient Name":"Bromine",
+  "Alt Name 1":"Bromomethane",
+  "Alt Name 2":"Bromide",
+  "Alt Name 3":"Ethylene Bromide",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Bromine"
+  },
+  {
+  "Ingredient Name":"Chlorine",
+  "Alt Name 1":"Sodium hypochlorite",
+  "Alt Name 2":"calcium hypochlorite",
+  "Alt Name 3":"bleach",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Chlorine"
+  },
+  {
+  "Ingredient Name":"Phenol",
+  "Alt Name 1":"carbolic acid",
+  "Alt Name 2":"benzenol",
+  "Alt Name 3":"phenylic acid",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Phenol"
+  },
+  {
+  "Ingredient Name":"Lidane",
+  "Alt Name 1":"gamma-hexachlorocyclohexane",
+  "Alt Name 2":"gammaxene",
+  "Alt Name 3":"Gammallin",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Lindane"
+  },
+  {
+  "Ingredient Name":"Peracetic Acid",
+  "Alt Name 1":"peroxyacetic acid",
+  "Alt Name 2":"Acetic peroxide",
+  "Alt Name 3":"Proxitane",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Peracetic_acid"
+  },
+  {
+  "Ingredient Name":"Phosphorus",
+  "Alt Name 1":"",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Phosphorus"
+  },
+  {
+  "Ingredient Name":"Tetraethyl pyrophosphate",
+  "Alt Name 1":"tetraethyl diphosphate",
+  "Alt Name 2":"TEPP",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/TEPP"
+  },
+  {
+  "Ingredient Name":"Warfarin",
+  "Alt Name 1":"Coumadin",
+  "Alt Name 2":"Marevan",
+  "Alt Name 3":"Jantoven",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Warfarin"
+  },
+  {
+  "Ingredient Name":"Amaranth",
+  "Alt Name 1":"FD&C Red No. 2",
+  "Alt Name 2":"Food Red #9",
+  "Alt Name 3":"E123",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Amaranth_(dye)"
+  },
+  {
+  "Ingredient Name":"Scarlet GN",
+  "Alt Name 1":"C.I Food Red 1",
+  "Alt Name 2":"Red #4",
+  "Alt Name 3":"C.I. Food Red 1",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/FD%26C_Red_No._4"
+  },
+  {
+  "Ingredient Name":"FD&C Orange Number 1",
+  "Alt Name 1":"Orange I",
+  "Alt Name 2":"Acid orange 20",
+  "Alt Name 3":"Sodium 4-[2-(4-oxonaphthalen-1-ylidene)hydrazin-1-yl]benzenesulfonate",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/FD%26C_Orange_Number_1"
+  },
+  {
+  "Ingredient Name":"DDT",
+  "Alt Name 1":"dichlorodiphenyltrichloroethane",
+  "Alt Name 2":"1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/DDT#Acute_toxicity"
+  },
+  {
+  "Ingredient Name":"Dichloroacetic Acid",
+  "Alt Name 1":"Dichloroethanoic acid",
+  "Alt Name 2":"DCA",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Dichloroacetic_acid"
+  },
+  {
+  "Ingredient Name":"Diethyl Sulfate",
+  "Alt Name 1":"Sulfuric acid diethyl ester",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Diethyl_sulfate"
+  },
+  {
+  "Ingredient Name":"Methanol",
+  "Alt Name 1":"Methyl Alcohol",
+  "Alt Name 2":"Wood alcohol",
+  "Alt Name 3":"wood naptha ",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Methanol"
+  },
+  {
+  "Ingredient Name":"Polybrominated Biphenyl",
+  "Alt Name 1":"PBB",
+  "Alt Name 2":"brominated biphenyls ",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Polybrominated_biphenyl"
+  },
+  {
+  "Ingredient Name":"Polychlorinated Biphenyl ",
+  "Alt Name 1":"PCB",
+  "Alt Name 2":"chlorinated biphenyls",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Polychlorinated_biphenyl"
+  },
+  {
+  "Ingredient Name":"Bisphenol A",
+  "Alt Name 1":"BPA",
+  "Alt Name 2":"4,4'-(propane-2,2-diyl)diphenol",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Bisphenol_A"
+  },
+  {
+  "Ingredient Name":"1,3-Butadiene ",
+  "Alt Name 1":"Buta-1,3-diene",
+  "Alt Name 2":"Biethylene",
+  "Alt Name 3":"rubber",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/1,3-Butadiene"
+  },
+  {
+  "Ingredient Name":"Carbon Disulfide",
+  "Alt Name 1":"Methanedithione",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Carbon_Disulfide"
+  },
+  {
+  "Ingredient Name":"Vinyl chloride",
+  "Alt Name 1":"Chloroethane",
+  "Alt Name 2":"VCM",
+  "Alt Name 3":"",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Vinyl_chloride"
+  },
+  {
+  "Ingredient Name":"Diphenylamine",
+  "Alt Name 1":"DPA",
+  "Alt Name 2":"N-Phenylbenzenamine",
+  "Alt Name 3":"Phenylbenzenamine",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Diphenylamine"
+  },
+  {
+  "Ingredient Name":"Sodium Hydroxide",
+  "Alt Name 1":"Caustic Soda",
+  "Alt Name 2":"Lye",
+  "Alt Name 3":"Sodium Oxidanide",
+  "Weight":3,
+  "Source":"http://en.wikipedia.org/wiki/Sodium_hydroxide"
+  },
+  {
+  "Ingredient Name":"Allylamine",
+  "Alt Name 1":"3-Amino-prop-1-ene",
+  "Alt Name 2":"Aminopropene",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Allylamine"
+  },
+  {
+  "Ingredient Name":"Ammonium Nitrate",
+  "Alt Name 1":"ammonia nitre",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Ammonium_nitrate"
+  },
+  {
+  "Ingredient Name":"Ergotamine",
+  "Alt Name 1":"Ergomar",
+  "Alt Name 2":"Cafergot",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Ergotamine_tartrate"
+  },
+  {
+  "Ingredient Name":"Hydroquinone",
+  "Alt Name 1":"Idrochinone",
+  "Alt Name 2":"Benzene-1,4-diol",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Hydroquinone"
+  },
+  {
+  "Ingredient Name":"Nitrobenzene",
+  "Alt Name 1":"Nitrobenzol",
+  "Alt Name 2":"Oil of mirbane",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Nitrobenzene"
+  },
+  {
+  "Ingredient Name":"Cyanoacrylate",
+  "Alt Name 1":"ethyl cyanoacrylate",
+  "Alt Name 2":"methyl cyanoacrylate ",
+  "Alt Name 3":"ECA",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Cyanoacrylate#Toxicity"
+  },
+  {
+  "Ingredient Name":"Sodium Tripolyphosphate",
+  "Alt Name 1":"STP",
+  "Alt Name 2":"STPP",
+  "Alt Name 3":"Pentasodium triphosphate",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Sodium_tripolyphosphate"
+  },
+  {
+  "Ingredient Name":"Pyrene",
+  "Alt Name 1":"benzo[def]phenanthrene",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Pyrene"
+  },
+  {
+  "Ingredient Name":"Areca nut",
+  "Alt Name 1":"betel nut",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Areca_nut"
+  },
+  {
+  "Ingredient Name":"Benzene",
+  "Alt Name 1":"benzol",
+  "Alt Name 2":"phene",
+  "Alt Name 3":"cyclohexa-1,3,5-triene",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Benzene"
+  },
+  {
+  "Ingredient Name":"Bracken Fern",
+  "Alt Name 1":"fiddlehead",
+  "Alt Name 2":"bracken",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Bracken#Poisoning"
+  },
+  {
+  "Ingredient Name":"Cocamide DEA",
+  "Alt Name 1":"Cocamide diethanolamine",
+  "Alt Name 2":"DEA",
+  "Alt Name 3":"Coconut oil DEA",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Cocamide_DEA"
+  },
+  {
+  "Ingredient Name":"Sudan I",
+  "Alt Name 1":"CI Solvent Yellow 14",
+  "Alt Name 2":"Solvent Orange R",
+  "Alt Name 3":"Yellow #14",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Sudan_I"
+  },
+  {
+  "Ingredient Name":"DEET",
+  "Alt Name 1":"N,N-Diethyl-meta-toluamide",
+  "Alt Name 2":"N,N-Diethyl-3-methylbenzamide",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/DEET"
+  },
+  {
+  "Ingredient Name":"Ethyl Acrylate",
+  "Alt Name 1":"Ethyl propenoate",
+  "Alt Name 2":"Acrylic acid ethyl ester",
+  "Alt Name 3":"Ethyl propenoate",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Ethyl_acrylate"
+  },
+  {
+  "Ingredient Name":"Chloromethane",
+  "Alt Name 1":"Methyl chloride",
+  "Alt Name 2":"R-40",
+  "Alt Name 3":"HCC 40",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Chloromethane#Safety"
+  },
+  {
+  "Ingredient Name":"Potassium Bromate",
+  "Alt Name 1":"Bromic acid",
+  "Alt Name 2":"potassium salt",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Potassium_bromate"
+  },
+  {
+  "Ingredient Name":"Toluene",
+  "Alt Name 1":"toluol",
+  "Alt Name 2":"Methylbenzene",
+  "Alt Name 3":"phenylmethane",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Toluene"
+  },
+  {
+  "Ingredient Name":"p-Phenylenediamine",
+  "Alt Name 1":"1,4-Diaminobenzene",
+  "Alt Name 2":"PPD",
+  "Alt Name 3":"Paraphenylenediamine",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/P-Phenylenediamine#Safety"
+  },
+  {
+  "Ingredient Name":"Dibutyl phthalate",
+  "Alt Name 1":"DBP",
+  "Alt Name 2":"Palatinol C",
+  "Alt Name 3":"Elaol",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Dibutyl_phthalate"
+  },
+  {
+  "Ingredient Name":"2-Butoxyethanol",
+  "Alt Name 1":"butyl cellosolve",
+  "Alt Name 2":"Butoxyethanol",
+  "Alt Name 3":"butyl glycol",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/2-Butoxyethanol"
+  },
+  {
+  "Ingredient Name":"Acetaldehyde",
+  "Alt Name 1":"Ethanal",
+  "Alt Name 2":"Acetic Aldehyde",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Acetaldehyde"
+  },
+  {
+  "Ingredient Name":"TNT",
+  "Alt Name 1":"Trinitrotoluene",
+  "Alt Name 2":"Tetranitrotoluene",
+  "Alt Name 3":"Dynamite",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/TNT"
+  },
+  {
+  "Ingredient Name":"Boric Acid",
+  "Alt Name 1":"hydrogen borate",
+  "Alt Name 2":"boracic acid",
+  "Alt Name 3":"Trihydrooxidoboron",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Boric_acid"
+  },
+  {
+  "Ingredient Name":"Tributyltin oxide",
+  "Alt Name 1":"Biomet",
+  "Alt Name 2":"Butinox",
+  "Alt Name 3":"Hexabutyldistannoxane",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Tributyltin_oxide"
+  },
+  {
+  "Ingredient Name":"Propylene Glycol Alginate",
+  "Alt Name 1":"E405",
+  "Alt Name 2":"Hydroxypropyl alginate",
+  "Alt Name 3":"PGA",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Propylene_glycol_alginate"
+  },
+  {
+  "Ingredient Name":"Phthlates",
+  "Alt Name 1":"Phthalic acid",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Phthalate"
+  },
+  {
+  "Ingredient Name":"Cyclopentasiloxane",
+  "Alt Name 1":"Decamethylcyclopentasiloxane",
+  "Alt Name 2":"Cyclopentamethicone",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Decamethylcyclopentasiloxane"
+  },
+  {
+  "Ingredient Name":"Dimethicone",
+  "Alt Name 1":"Polydimethylsiloxane",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":2,
+  "Source":"http://en.wikipedia.org/wiki/Polydimethylsiloxane"
+  },
+  {
+  "Ingredient Name":"Sorbic Acid",
+  "Alt Name 1":"",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Sorbic_acid"
+  },
+  {
+  "Ingredient Name":"Farnesol",
+  "Alt Name 1":"Trimethyl dodecatrienol",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Farnesol"
+  },
+  {
+  "Ingredient Name":"Castoreum",
+  "Alt Name 1":"castoramine",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Castoreum"
+  },
+  {
+  "Ingredient Name":"Caffeic Acid",
+  "Alt Name 1":"Argan Oil",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Caffeic_acid"
+  },
+  {
+  "Ingredient Name":"Citrus Red 2",
+  "Alt Name 1":"Citrus Red No. 2",
+  "Alt Name 2":"Red #2",
+  "Alt Name 3":"C.I. Solvent Red 80",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Citrus_Red_2"
+  },
+  {
+  "Ingredient Name":"Orange B",
+  "Alt Name 1":"C.I. Acid Orange 137",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Orange_B"
+  },
+  {
+  "Ingredient Name":"Erythrosine",
+  "Alt Name 1":"Red No. 3",
+  "Alt Name 2":"Food Red 14",
+  "Alt Name 3":"Red #3",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Erythrosine"
+  },
+  {
+  "Ingredient Name":"Safrole",
+  "Alt Name 1":"shikimol",
+  "Alt Name 2":"5-(2-propenyl)-1,3-benzodioxole",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Safrole"
+  },
+  {
+  "Ingredient Name":"Ethanol",
+  "Alt Name 1":"Ethyl Alcohol",
+  "Alt Name 2":"alcohol",
+  "Alt Name 3":"spirits",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Ethanol"
+  },
+  {
+  "Ingredient Name":"Isoprene",
+  "Alt Name 1":"2-methyl-1,3-butadiene",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Isoprene"
+  },
+  {
+  "Ingredient Name":"Fragrance",
+  "Alt Name 1":"Parfum",
+  "Alt Name 2":"odorant",
+  "Alt Name 3":"Fragrance (Parfum)",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Aroma_compound#Safety"
+  },
+  {
+  "Ingredient Name":"Decamethylcyclopentasiloxane",
+  "Alt Name 1":"Cyclopentamethicone",
+  "Alt Name 2":"Cyclic dimethylsiloxane pentamer",
+  "Alt Name 3":"Decamethyl-1,3,5,7,9,2,4,6,8,10-pentaoxapentasilecane",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Decamethylcyclopentasiloxane"
+  },
+  {
+  "Ingredient Name":"Triclosan",
+  "Alt Name 1":"CH-3565",
+  "Alt Name 2":"Lexol 300",
+  "Alt Name 3":"Irgasan DP 300",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Triclosan#Health_concerns"
+  },
+  {
+  "Ingredient Name":"Octyl methoxycinnamate",
+  "Alt Name 1":"Octinoxate",
+  "Alt Name 2":"Ethylhexyl methoxycinnamate",
+  "Alt Name 3":"(RS)-2-Ethylhexyl (2E)-3-(4-methoxyphenyl)prop-2-enoate",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Octyl_methoxycinnamate"
+  },
+  {
+  "Ingredient Name":"Talc",
+  "Alt Name 1":"talcum powder",
+  "Alt Name 2":"magnesium silicate",
+  "Alt Name 3":"talcum",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Talc#Safety"
+  },
+  {
+  "Ingredient Name":"Ethylene",
+  "Alt Name 1":"Ethene",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Ethylene#Safety"
+  },
+  {
+  "Ingredient Name":"ethoxydiglycol",
+  "Alt Name 1":"DEGEE",
+  "Alt Name 2":"Carbitol",
+  "Alt Name 3":"Dowanal DE",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/2-(2-Ethoxyethoxy)ethanol"
+  },
+  {
+  "Ingredient Name":"Diethyleneglycol monomethyl ether",
+  "Alt Name 1":"Methyl Carbitol",
+  "Alt Name 2":"Glycol Ether DM",
+  "Alt Name 3":"2-(2-Methoxyethoxy)ethanol",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/2-(2-Methoxyethoxy)ethanol"
+  },
+  {
+  "Ingredient Name":"Coumarin",
+  "Alt Name 1":"2H-chromen-2-one",
+  "Alt Name 2":"1-benzopyran-2-one",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Coumarin#Toxicity_and_use_in_foods.2C_beverages.2C_cosmetics_and_tobacco"
+  },
+  {
+  "Ingredient Name":"BHT",
+  "Alt Name 1":"2,6-bis(1,1-dimethylethyl)-4-methylphenol",
+  "Alt Name 2":"Butylated hydroxytoluene",
+  "Alt Name 3":"E321",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Butylated_hydroxytoluene"
+  },
+  {
+  "Ingredient Name":"Chlorinated Water",
+  "Alt Name 1":"Butylated Hydroxytoluene",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Water_chlorination#Drawbacks_to_water_chlorination"
+  },
+  {
+  "Ingredient Name":"Sorbitol",
+  "Alt Name 1":"glucitol",
+  "Alt Name 2":"D-Sorbitol",
+  "Alt Name 3":"Sorbo",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Sorbitol"
+  },
+  {
+  "Ingredient Name":"EDTA",
+  "Alt Name 1":"Ethylenediaminetetraacetic acid",
+  "Alt Name 2":"Tetrasodium EDTA",
+  "Alt Name 3":"Edetic acid",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid"
+  },
+  {
+  "Ingredient Name":"Olestra",
+  "Alt Name 1":"Olean",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Olestra"
+  },
+  {
+  "Ingredient Name":"Diacetyl",
+  "Alt Name 1":"butanedione",
+  "Alt Name 2":"buate-2,3-dione",
+  "Alt Name 3":"biacetyl",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Diacetyl"
+  },
+  {
+  "Ingredient Name":"Caffeine",
+  "Alt Name 1":"1,3,7-Trimethyl-1H-purine-2,6(3H,7H)-dione",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Caffeine"
+  },
+  {
+  "Ingredient Name":"Propyl Gallate",
+  "Alt Name 1":"Gallic acid",
+  "Alt Name 2":"Propyl Ester",
+  "Alt Name 3":"E310",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Propyl_gallate"
+  },
+  {
+  "Ingredient Name":"Brominated Vegetable Oil",
+  "Alt Name 1":"BVO",
+  "Alt Name 2":"",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Brominated_vegetable_oil"
+  },
+  {
+  "Ingredient Name":"MSG",
+  "Alt Name 1":"Monosodium Glutamate",
+  "Alt Name 2":"Sodium Glutamate",
+  "Alt Name 3":"Sodium 2-aminopentanedioate",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Monosodium_glutamate"
+  },
+  {
+  "Ingredient Name":"Borax",
+  "Alt Name 1":"sodium borate",
+  "Alt Name 2":"Sodium tetraborate",
+  "Alt Name 3":"Sodium tetraborate decahydrate",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Borax"
+  },
+  {
+  "Ingredient Name":"Perchlorate",
+  "Alt Name 1":"sodium perchlorate",
+  "Alt Name 2":"potassium perchlorate",
+  "Alt Name 3":"perchloric acid",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Perchlorate"
+  },
+  {
+  "Ingredient Name":"Sodium lauryl sulfate",
+  "Alt Name 1":"SLS",
+  "Alt Name 2":"Sodium dodecyl sulfate",
+  "Alt Name 3":"Sodium coco-sulfate",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Sodium_lauryl_sulfate"
+  },
+  {
+  "Ingredient Name":"Sorbate 60",
+  "Alt Name 1":"Polysorbate",
+  "Alt Name 2":"Polyoxyethylene (20) sorbitan monooleate",
+  "Alt Name 3":"Tween",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Polysorbate_80"
+  },
+  {
+  "Ingredient Name":"Allura Red AC",
+  "Alt Name 1":"Red 40",
+  "Alt Name 2":"Red #40",
+  "Alt Name 3":"Red No. 40",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Allura_Red_AC"
+  },
+  {
+  "Ingredient Name":"Behentrimonium Chloride",
+  "Alt Name 1":"Behentrimonium ",
+  "Alt Name 2":"docosyltrimethylammonium chloride",
+  "Alt Name 3":"BTAC-228",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Behentrimonium_chloride"
+  },
+  {
+  "Ingredient Name":"Methylisothiazolinone",
+  "Alt Name 1":"2-Methylisothiazol-3(2H)-one",
+  "Alt Name 2":"MIT",
+  "Alt Name 3":"",
+  "Weight":1,
+  "Source":"http://en.wikipedia.org/wiki/Methylisothiazolinone"
+  }
+  ]
