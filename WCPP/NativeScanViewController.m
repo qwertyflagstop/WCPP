@@ -8,6 +8,7 @@
 
 #import "NativeScanViewController.h"
 #import "Barcode.h"
+#import "TFHpple.h"
 @interface NativeScanViewController () <AVCaptureMetadataOutputObjectsDelegate,FactualAPIDelegate,UIAlertViewDelegate>
 {
     AVCaptureSession *_session;
@@ -71,27 +72,69 @@
     
     apiObject = [[FactualAPI alloc]initWithAPIKey:@"WlZN9QGlqTUz7vhjZlziU2JtPZ9Gha4mYdYpLRqF" secret:@"a0kApLAcVb3TGkjr0EpSC9fIhs56NQxq8CTs1KMW"];
     
-    ingredients = [[NSMutableArray alloc]init];
-    NSString *filurl = [[NSBundle mainBundle]pathForResource:@"data" ofType:@"json"];
-    NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filurl] options:kNilOptions error:nil];
+    //https://docs.google.com/spreadsheets/d/1L_-3uyz1snPgJUHxDENyH9rJ-R2i8piV0-JLlEhjh-0/pubhtml
     
-    for (NSDictionary *dict in jsonArray) {
-        NSMutableArray *names = [[NSMutableArray alloc]init];
-        [names addObject:[dict objectForKey:@"Ingredient Name"]];
-        [names addObject:[dict objectForKey:@"Alt Name 1"]];
-        [names addObject:[dict objectForKey:@"Alt Name 2"]];
-        [names addObject:[dict objectForKey:@"Alt Name 3"]];
-        NSMutableArray *goodNames = [[NSMutableArray alloc]init];
-        for (NSString *name in names) {
-            if (![name isEqualToString:@""]) {
-                [goodNames addObject:[name lowercaseString]];
+    NSOperationQueue *que = [[NSOperationQueue alloc]init];
+    NSURL *url = [NSURL URLWithString:@"https://docs.google.com/spreadsheets/d/1L_-3uyz1snPgJUHxDENyH9rJ-R2i8piV0-JLlEhjh-0/pubhtml"];
+    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url] queue:que completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        if (!connectionError&&data!=nil) {
+            ingredients = [[NSMutableArray alloc]init];
+            TFHpple *hpple = [TFHpple hppleWithHTMLData:data];
+            NSArray *rows = [hpple searchWithXPathQuery:@"//table[@class='waffle']/tbody/tr"];
+            NSLog(@"%i",rows.count);
+            for (int i =1; i<rows.count; i++) {
+                
+                NSMutableArray *names = [[NSMutableArray alloc]init];
+                int wieght = 0;
+                NSString *src;
+                
+                TFHppleElement *row = rows[i];
+                NSArray *collums = row.children;
+                for (int j = 1; j<collums.count; j++) {
+                    TFHppleElement *col = collums[j];
+                    if (j<5&&col.text!=NULL) {
+                        [names addObject:[col.text lowercaseString]];
+                    }
+                    if (j==5) {
+                        NSLog(@"%i %@",j,col.text);
+                        wieght = [col.text intValue];
+                    }
+                    if (j==6) {
+                        NSDictionary *tributes = col.firstChild.attributes;
+                        src = [tributes objectForKey:@"href"];
+                    }
+                    
+                }
+                Ingredient *g = [[Ingredient alloc]initWithNames:names weight:wieght source:src];
+                [ingredients addObject:g];
+            }
+            
+            
+        } else{
+            ingredients = [[NSMutableArray alloc]init];
+            NSString *filurl = [[NSBundle mainBundle]pathForResource:@"data" ofType:@"json"];
+            NSArray *jsonArray = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:filurl] options:kNilOptions error:nil];
+            
+            for (NSDictionary *dict in jsonArray) {
+                NSMutableArray *names = [[NSMutableArray alloc]init];
+                [names addObject:[dict objectForKey:@"Ingredient Name"]];
+                [names addObject:[dict objectForKey:@"Alt Name 1"]];
+                [names addObject:[dict objectForKey:@"Alt Name 2"]];
+                [names addObject:[dict objectForKey:@"Alt Name 3"]];
+                NSMutableArray *goodNames = [[NSMutableArray alloc]init];
+                for (NSString *name in names) {
+                    if (![name isEqualToString:@""]) {
+                        [goodNames addObject:[name lowercaseString]];
+                    }
+                }
+                int wate = [(NSString *)[dict objectForKey:@"Weight"] intValue];
+                NSString *src = [dict objectForKey:@"Source"];
+                Ingredient *greedy = [[Ingredient alloc]initWithNames:goodNames weight:wate source:src];
+                [ingredients addObject:greedy];
             }
         }
-        int wate = [(NSString *)[dict objectForKey:@"Weight"] intValue];
-        NSString *src = [dict objectForKey:@"Source"];
-        Ingredient *greedy = [[Ingredient alloc]initWithNames:goodNames weight:wate source:src];
-        [ingredients addObject:greedy];
-    }
+    }];
+    
     
     
      
